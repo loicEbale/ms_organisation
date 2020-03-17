@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sprintpay.organisation",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "msOrganisation",
+    "packageName": "com.sprintpay.organisation",
+    "packageFolder": "com/sprintpay/organisation",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "msUaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTY0NDAyYjZmOTgyZDhmMDE3MmMwNDM1YjY3OWZiNmJjZTg2ZTgwNDJiYzYyYWRiZTQzYzE0MTE5MDIzNDExZDAwYThkZmRiZmRjOGE0OTY1MTcyMzdhMTY3NGY4NGI3OWMxNWI5M2VlMTlmNWQ1ZjllOThjOGI2YTBkZjQ0ZGU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1583856297113,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

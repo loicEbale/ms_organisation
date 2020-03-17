@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "msOrganisation",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "registreCom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "localisation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateCreation",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20200310162422",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "organisation",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "msOrganisation"
+}
